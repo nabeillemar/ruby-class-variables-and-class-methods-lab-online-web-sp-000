@@ -12,6 +12,14 @@ class Song
     @name
   end 
   
+  def artist
+  @artist = artist
+end 
+
+def genre 
+  @genre = genre
+end 
+  
   def self.count
     @@count
   end
